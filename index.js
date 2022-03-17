@@ -49,7 +49,7 @@ export default () => {
                 value: 0.01
             },
             color: {
-                value: new THREE.Vector3(0.95,0.45,.25)
+                value: new THREE.Vector3(0,0,0.99)
             },
             
           },
