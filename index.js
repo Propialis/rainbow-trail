@@ -636,10 +636,10 @@ export default () => {
                 value: new THREE.Vector2(window.innerWidth, window.innerHeight),
             },
             color1: {
-                value: new THREE.Vector3(174, 30, 200),
+                value: new THREE.Vector3(0, 0, 200),
             },
             color0: {
-                value: new THREE.Vector3(200, 58, 72),
+                value: new THREE.Vector3(0, 0, 72),
             },
         };
         const spheregeometry = new THREE.SphereGeometry(1.4, 32, 32, 0, Math.PI * 2, 0, Math.PI);
