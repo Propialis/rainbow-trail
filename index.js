@@ -1785,7 +1785,7 @@ export default () => {
                 blending: THREE.AdditiveBlending,
                 side: THREE.DoubleSide
             });
-            const material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
+            const material = new THREE.MeshBasicMaterial( {color: 0x0000FF} );
             const mesh = new THREE.Mesh(geometry, windMaterial);
             mesh.setRotationFromAxisAngle( new THREE.Vector3( 1, 0, 0 ), -90 * Math.PI / 180 );
             
